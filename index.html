@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
+  <head>
     <meta name="keywords" content="front-end web developer, unblocked, games, google sites, unblocked games mom, unblocked, code, coding, programmer, development, javascript, jquery, bootstrap, sass, less, git">
     <meta property="og:title" content="sky">
     <meta property="og:site_name" content="3kh0.github.io">
@@ -11,30 +11,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>sky is a gamer</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.4" rel="stylesheet">
-</head>
-<body class="bg-gray-900 text-white font-sans flex flex-col items-center justify-center min-h-screen">
-    <h1 class="text-4xl text-center mb-5">
-        sky
+    <style>
+      body {
+        background-color: #121212;
+        color: #ffffff;
+      }
+
+      h1 {
+        font-size: 3.5rem;
+      }
+
+      #subtitle {
+        font-size: 1.75rem;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+      }
+
+      .btn {
+        cursor: pointer;
+        background-color: #dc143c;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1rem;
+        border-radius: 20px;
+        margin-top: 20px;
+        transition: background-color 0.3s ease;
+      }
+
+      .btn:hover {
+        background-color: #c11a35;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      sky
     </h1>
-    <span id="subtitle" class="text-lg">...</span>
-    <div class="text-center max-w-2xl mt-10">
-        <p class="mb-8">
-            Welcome to sky, a lightweight, lightning-fast, and simple game site.
-        </p>
-        <div class="space-y-4">
-            <a href="/projects.html" class="inline-block">
-                <button class="bg-red-600 hover:bg-red-700 text-white py-3 px-8 text-lg rounded-full shadow-lg">
-                    Start playing!
-                </button>
-            </a>
-            <a href="/misc.html" class="inline-block">
-                <button class="bg-red-600 hover:bg-red-700 text-white py-3 px-8 text-lg rounded-full shadow-lg">
-                    Tab Cloak and about:blank
-                </button>
-            </a>
-        </div>
+    <span id="subtitle">...</span>
+    <div class="container">
+      <p>
+        Welcome to sky, a lightweight, lightning fast, and simple game site.<br><br>
+        Yes, no tracking, no ads, no garbage. It is privacy-respecting and <b>DOES</b> have games.
+      </p>
+      <a href="/projects.html" class="btn">Start playing!</a>
+      <a href="/misc.html" class="btn">Tab Cloak and about:blank</a>
     </div>
     <script src="/js/main.js"></script>
     <script src="/js/subtitle.js"></script>
-</body>
+  </body>
 </html>
